@@ -361,7 +361,7 @@ class LdapUserViewProvider extends \IF_AbstractLdapConnector
 	 */
 	public function getGroupsOfSubgroup($objGroup)
 	{
-		throw new Exception('not implemented');
+        return array();
 	}
 
 	/**
@@ -370,7 +370,7 @@ class LdapUserViewProvider extends \IF_AbstractLdapConnector
 	 */
 	public function getSubgroupsOfGroup($objGroup)
 	{
-		throw new Exception('not implemented');
+        return array();
 	}
 
 	/**
@@ -379,7 +379,7 @@ class LdapUserViewProvider extends \IF_AbstractLdapConnector
 	*/
 	public function isSubgroupInGroup($objSubgroup, $objGroup)
 	{
-		throw new Exception('not implemented');
+        return false;
 	}
 
 	/**
